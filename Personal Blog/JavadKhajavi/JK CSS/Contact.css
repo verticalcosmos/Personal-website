@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* Contact */
+
+
+
+
+.contactsContainer {
+	margin-left: 15vw;
+	margin-top: -25vh;
+}
+
+.contactsContainer ul {
+	list-style-type: none;
+}
+
+.contactLinks {
+	color: white;
+	font-family: Regulator-Nova, sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+	line-height: 2.5rem;
+	
+	-webkit-transition: all 1s ease-out 0.2s;
+    -moz-transition: all 1s ease-out 0.2s;
+    -ms-transition: all 1s ease-out 0.2s;
+    -o-transition: all 1s ease-out 0.2s;
+    transition: all 1s ease-out 0.2s;
+}
+
+.contactLinks:hover {
+	color: #ff0060;
+	letter-spacing: 0.02rem;
+	
+	-webkit-transition: all 1s ease-out 0.2s;
+    -moz-transition: all 1s ease-out 0.2s;
+    -ms-transition: all 1s ease-out 0.2s;
+    -o-transition: all 1s ease-out 0.2s;
+    transition: all 1s ease-out 0.2s;
+}
+
+
+
+.statusContainer {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+
+
+.timeStatusContainer {
+	margin-top: 200px;
+	align-content: center;
+	justify-content: center;
+}
+
+#time {
+	color: #ff0060;
+	font-family: Regulator-Nova, sans-serif;
+	font-size: 15vw;
+	font-weight: 900;
+	text-align: center;
+
+}
+
+
+#status {
+	color: #ff0060;
+	font-family: Regulator-Nova, sans-serif;
+	font-size: 3vw;
+	font-weight: 100;
+	margin-top: -7vw;
+	text-align: center;
+
+
+}
+
+
+#animatedMapContainer {
+	width: 100vw;
+	height: auto;
+	position: absolute;
+	z-index: -2;
+}
